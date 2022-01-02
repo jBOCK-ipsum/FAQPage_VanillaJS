@@ -20,6 +20,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <title>FAQ Delivery Page</title>
   </head>
   <body>
@@ -28,9 +29,9 @@
         <h1>en route</h1>
       </div>
       <div class="headerOptions">
-        <li>Search</li>
-        <li>My Account</li>
-        <li class="cart">Cart: £0.00</li>
+        <li><a href="Search Box PopUp Here">Search</a></li>
+        <li><a href="Takes you to my Account page">My Account</a></li>
+        <li class="cart"><a href="Takes you to my basket and check out page">Cart: £0.00</a></li>
       </div>
     </header>
     <hr />
@@ -44,57 +45,59 @@
         <h2>FAQ</h2>
         <p class="descrip">
           These are the most frequently asked question that we get! If you have
-          any question, please 👉<a href="" class="link">contact us</a>👈
+          any questions, please 👉 <a href="" class="link">contact us</a> 👈
         </p>
       </div>
       <div class="semiBanner">
         <div class="shippingText">
           <p class="textShip">
             Shipping has changed for international order due to the current
-            pandemic situation. Please read 👉<a
+            pandemic situation. Please read 👉 <a
               href="https://personal.help.royalmail.com/app/answers/detail/a_id/5317/~/international-incident-bulletin"
               class="link"
               >here</a
-            >👈
+            > 👈
           </p>
         </div>
       </div>
     </div>
 
     <section class="faqSection">
-      <button type="button" class="collapsible">Open Collapsible</button>
-      <div class="content">
+      <button type="button" class="collapsible" id="button1" onclick="expand1">Open Collapsible</button>
+      <hr class="type2hr" />
+      <div class="content" id="q1" onclick="expand1">
         <p>Lorem ipsum...</p>
       </div>
 
       <button type="button" class="collapsible">Open Collapsible</button>
-      <div class="content">
+      <hr class="type2hr" />
+      <div class="content" id="q2">
         <p>Lorem ipsum...</p>
       </div>
 
       <button type="button" class="collapsible">Open Collapsible</button>
-      <div class="content">
+      <hr class="type2hr" />
+      <div class="content" id="q3">
         <p>Lorem ipsum...</p>
       </div>
 
       <button type="button" class="collapsible">Open Collapsible</button>
-      <div class="content">
+      <hr class="type2hr" />
+      <div class="content" id="q4">
         <p>Lorem ipsum...</p>
       </div>
 
       <button type="button" class="collapsible">Open Collapsible</button>
-      <div class="content">
+      <hr class="type2hr" />
+      <div class="content" id="q5">
         <p>Lorem ipsum...</p>
       </div>
 
       <button type="button" class="collapsible">Open Collapsible</button>
-      <div class="content">
+      <hr class="type2hr" />
+      <div class="content" id="q6">
         <p>Lorem ipsum...</p>
       </div>
-
-      <button type="button" class="collapsible">Open Collapsible</button>
-      <div class="content">
-        <p>Lorem ipsum...</p>
       </div>
     </section>
   </body>
