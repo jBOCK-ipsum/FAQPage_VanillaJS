@@ -111,10 +111,55 @@ h2 {
   margin: auto;
   margin-top: -25vh;
 }
-.content {
-    display: none;
+#q1 {
+  display: none;
 }
+#q2 {
+  display: none;
+}
+#q3 {
+  display: none;
+}
+#q4 {
+  display: none;
+}
+#q5 {
+  display: none;
+}
+#q6 {
+  display: none;
+}
+.content {
+  opacity: 75%;
+  font-family: "Barlow", cursive;
+  font-size: 12px;
+  margin-left: 1.7vw;
+  line-height: 20px;
+}
+
 .collapsible {
-    width: 100%;
-    text-align: left;
+  display: block;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  border: none;
+  background-color: white;
+  line-height: 35px;
+  font-family: "Barlow", cursive;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 1.5vh;
+  cursor: pointer;
+}
+.type2hr {
+  margin: auto;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+strong {
+  color: #303030;
 }
